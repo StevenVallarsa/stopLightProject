@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="stopLight.js"></script>
   <title>Stop Light Sample Project</title>
 </head>
 
@@ -14,8 +15,18 @@
   <main>
     <p>The light is <span id="light"></span></p>
     <p>What do you do?</p>
+    <div>
+      <button id="turnLeft">Turn Left</button>
+      <button id="goStraight">Go Straight</button>
+      <button id="turnRight">Turn Right</button>
+    </div>
+    <div>
+      <button id="stop">Stop</button>
+    </div>
+    <div><span id="response"></span></div>
 
   </main>
+
 </body>
 
 </html>
